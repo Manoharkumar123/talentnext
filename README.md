@@ -1,0 +1,2 @@
+# talentnext
+centralized comfiguration
