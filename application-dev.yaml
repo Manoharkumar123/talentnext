@@ -1,0 +1,24 @@
+#enable actuator endpoints
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#Datasource configuration
+spring:
+    datasource:
+        url: jdbc:h2:mem:mphasisdb
+        username: SA
+        password:
+        driver-class-name: org.h2.Driver
+
+    jpa:
+        properties:
+            hibernate:
+                show_sql: true
+                format_sql: true
+
+    h2:
+        console:
+            enabled: true
+            path: /spring-boot-h2-console
