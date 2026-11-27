@@ -7,7 +7,7 @@ management:
 #Datasource configuration
 spring:
     datasource:
-        url: jdbc:h2:mem:mphasisdb
+        url: jdbc:h2:mem:mphasisdevdb
         username: SA
         password:
         driver-class-name: org.h2.Driver
